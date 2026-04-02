@@ -1,7 +1,7 @@
 import { Client, type Session, type Socket } from '@heroiclabs/nakama-js';
 
 // Initialize the Nakama client
-const host = import.meta.env.VITE_NAKAMA_HOST || "127.0.0.1";
+const host = import.meta.env.VITE_NAKAMA_HOST || window.location.hostname || "127.0.0.1";
 const port = import.meta.env.VITE_NAKAMA_PORT || "7350";
 const USE_SSL = import.meta.env.VITE_NAKAMA_SSL === "true" || false;
 
