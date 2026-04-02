@@ -1,0 +1,18 @@
+{
+  "files": [
+    "./main.ts",
+    "./match_handler.ts"
+  ],
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "lib": ["es2015"],
+    "typeRoots": [
+      "./node_modules"
+    ],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
